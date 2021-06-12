@@ -17,11 +17,7 @@ import { Link } from 'react-router-dom';
      {props.post && <img className="figure" src={props.post.metadata.image.url} alt=""/>  }
      {props.post && <p className="text-page" dangerouslySetInnerHTML={{__html:props.post.content}}></p> }
      <div className="side-bar">
-        <div className="vote-container">
-        <i className="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i> 
-     <span className="vote">(22) </span> 
-     {/* required paiment plan to add post request to cosmic */}
-        </div>
+        
      </div>
     </div>
   )
