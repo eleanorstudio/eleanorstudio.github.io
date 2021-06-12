@@ -80,10 +80,11 @@ import LazyLoad from 'react-lazy-load';
         <p>No page</p>
         }
         <div>
-       { posts && <h2 className="category-title">FILM</h2>}
-          <hr/>
+       { posts && <h2 className="category-title"></h2>}
+          
           <Category />
         </div>
+	<hr/>
       
       </div>
     )

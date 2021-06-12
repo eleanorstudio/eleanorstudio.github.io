@@ -10,7 +10,7 @@
     margin: 0;
     font-size: 3.5rem;
     line-height: 64px;
-    word-wrap: break-word;
+    word-wrap: normal;
 }
 
 .figure{
